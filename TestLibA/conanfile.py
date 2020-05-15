@@ -4,7 +4,7 @@ class MytestlibaConan(ConanFile):
     name = "MyTestLibA"
     version = "1.0"
     author = "james.bourne"
-    description = "TestLibA to test conan, and cmake, this just prints a message"
+    description = "TestLibA to test conan, and cmake (from the conan-branch-test/development branch)"
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False]}
     default_options = {"shared": False}
