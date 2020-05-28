@@ -1,0 +1,33 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=10.0
+    os=Macos
+
+[requires]
+    MyTestLibB/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=10.0
+    os=Macos
+
+[full_requires]
+    MyTestLibB/1.1@common/development:f51350faf9be5480f35c35c17122e2cb6bfb617f
+
+[full_options]
+    MyTestLibB:shared=False
+
+[recipe_hash]
+
+
+[env]
+    MACOSX_DEPLOYMENT_TARGET=10.12

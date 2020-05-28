@@ -1,0 +1,14 @@
+{
+ "root": {
+  "version": null, 
+  "name": null, 
+  "channel": "development", 
+  "user": "common"
+ }, 
+ "options": [
+  [
+   "MyTestLibB:shared", 
+   "False"
+  ]
+ ]
+}

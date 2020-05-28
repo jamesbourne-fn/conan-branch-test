@@ -1,0 +1,18 @@
+{
+ "profile": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=apple-clang\ncompiler.libcxx=libc++\ncompiler.version=10.0\nos=Macos\nos_build=Macos\n[options]\n[build_requires]\n[env]\nMACOSX_DEPLOYMENT_TARGET=10.12", 
+ "graph_lock": {
+  "nodes": {
+   "fe0b8f61-8fa3-11ea-aefe-3af9d33b5dcb": {
+    "pref": "None/None@common/development:6052b3aebe24909b26f63b71c810d298662cbb50", 
+    "requires": {
+     "MyTestLibB/1.1@common/development#e6f98258daf297e9b5ff2e97a6c78984": "fe0b8d63-8fa3-11ea-8e56-3af9d33b5dcb"
+    }, 
+    "options": "MyTestLibB:shared=False"
+   }, 
+   "fe0b8d63-8fa3-11ea-8e56-3af9d33b5dcb": {
+    "pref": "MyTestLibB/1.1@common/development#e6f98258daf297e9b5ff2e97a6c78984:f8bda7f0751e4bc3beaa6c3b2eb02d455291c8a2#60b707d820430726961bff7290d7047a", 
+    "options": "shared=False"
+   }
+  }
+ }
+}

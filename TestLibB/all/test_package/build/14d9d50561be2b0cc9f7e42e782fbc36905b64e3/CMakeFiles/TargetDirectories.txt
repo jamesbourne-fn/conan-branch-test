@@ -1,0 +1,3 @@
+/Users/james.bourne/dev/workspaces/personal.mac/TestLibB/test_package/build/14d9d50561be2b0cc9f7e42e782fbc36905b64e3/CMakeFiles/rebuild_cache.dir
+/Users/james.bourne/dev/workspaces/personal.mac/TestLibB/test_package/build/14d9d50561be2b0cc9f7e42e782fbc36905b64e3/CMakeFiles/edit_cache.dir
+/Users/james.bourne/dev/workspaces/personal.mac/TestLibB/test_package/build/14d9d50561be2b0cc9f7e42e782fbc36905b64e3/CMakeFiles/example.dir
