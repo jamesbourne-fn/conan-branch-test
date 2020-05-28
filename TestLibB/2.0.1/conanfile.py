@@ -3,7 +3,6 @@ from conans import ConanFile, CMake
 
 class MytestlibbConan(ConanFile):
     name = "MyTestLibB"
-    version = "1.1"
     author = "james.bourne"
     description = "TestLibB to test conan, and cmake (from the conan-branch-test/development branch)"
     settings = "os", "compiler", "build_type", "arch"

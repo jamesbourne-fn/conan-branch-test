@@ -1,0 +1,18 @@
+{
+ "profile": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Debug\ncompiler=apple-clang\ncompiler.libcxx=libc++\ncompiler.version=10.0\nos=Macos\nos_build=Macos\nLLVM:build_type=Release\n[options]\n[build_requires]\n[env]\nMACOSX_DEPLOYMENT_TARGET=10.12", 
+ "graph_lock": {
+  "nodes": {
+   "0eb79835-8fa4-11ea-a49f-3af9d33b5dcb": {
+    "pref": "MyTestLibB/1.1@common/development#e6f98258daf297e9b5ff2e97a6c78984:f51350faf9be5480f35c35c17122e2cb6bfb617f#ab0f41d14c64cea83493ccb97d6b5b27", 
+    "options": "shared=False"
+   }, 
+   "0eb79a2b-8fa4-11ea-8f69-3af9d33b5dcb": {
+    "pref": "None/None@common/development:03464b0d92bf4f0061f56f2d988dd2f302183ddd", 
+    "requires": {
+     "MyTestLibB/1.1@common/development#e6f98258daf297e9b5ff2e97a6c78984": "0eb79835-8fa4-11ea-a49f-3af9d33b5dcb"
+    }, 
+    "options": "MyTestLibB:shared=False"
+   }
+  }
+ }
+}
